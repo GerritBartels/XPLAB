@@ -44,6 +44,7 @@ const instructions = magpieViews.view_generator("instructions", {
             <br />
             Your task will be to judge wether these objects are identical or different by pressing the respective key on your keyboard
             <br />
+            <br />
             (j = same, f = different).
             <br />
             <br />
