@@ -39,7 +39,7 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `In the following you will repeatedly be presented with two different 3D objects.
+  text: `In the following you will repeatedly be presented with two 3D objects.
             <br />
             <br />
             Your task will be to judge wether these objects are identical or different by pressing the respective key on your keyboard
@@ -48,7 +48,7 @@ const instructions = magpieViews.view_generator("instructions", {
             <br />
             <br />
             While deciding you should strive to optimize your speed and accuracy. We will start with a practice phase, where twelve different pictures are shown, so that you can get accustomed to the task.
-            The main phase will be exactly like the practice, except that there won't be feedback after each decision that tells you if your answer was correct or not.`,
+            The main phase will be exactly like the practice.`,
   buttonText: 'go to trials'
 });
 
